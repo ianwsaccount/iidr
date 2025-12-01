@@ -1,0 +1,38 @@
+{
+    "target_space": "prod",
+    "api_hosts": {
+        "test": "esupport-stage.ibm.com",
+        "prod": "esupport.ibm.com"
+    },
+    "iidr_client": {
+      "11.4": {
+        "aix": "IIDR_11405_5743_AIX",
+        "iseries": "IIDR_114_InterimFix14_IBMi_DB2_for_all_licenses",
+        "imsremotesystemz": "IDR_11409_9_IMSRemoteSource_LinuxSystemZ",
+        "vsamremotesystemz": "IDR_11422_9_VSAMRemoteSource_LinuxSystemZ",
+        "linuxx86": "IIDR_11405_5785_Linuxx86",
+        "linuxsz": "IIDR_11405_5785_LinuxSystemZ",
+        "linuxp": "IIDR_11405_5785_LinuxPower",
+        "imsremotesource": "IDR_11408_135_IMSRemoteSource",
+        "vsamremotesource": "IDR_11421_135_VSAMRemoteSource",
+        "imsremotesourcelinux": "IDR_11409_9_IMSRemoteSource_Linuxx86",
+        "vsamremotesourcelinux": "IDR_11422_141_VSAMRemoteSource_Linuxx86",
+        "windows": "IIDR_11405_5785_Windows",
+        "zos": "IIDR_11405_11207_ClassicChcclp"
+      }
+    },
+    "iidr_access": {
+        "11.4": {
+          "aix": "IIDR_11405_11207_AIX_AccessServer",
+          "linuxx86": "IIDR_11405_11207_Linuxx86_AccessServer",
+          "linuxsz": "IIDR_11405_11207_LinuxSystemZ_AccessServer",
+          "linuxp": "IIDR_11405_11207_LinuxPower_AccessServer",
+          "windows": "IIDR_11405_11207_Windows_AccessServer"
+        }
+    },
+    "iidr_console": {
+          "11.4": {
+            "windows": "IIDR_11405_11207_Windows_ManagementConsole"
+          }
+    }
+}
